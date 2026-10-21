@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+.sites-runtime/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local settings and private environment files
+.env*
+!.env.example
+.vercel/
+.openai/
+.DS_Store
+Thumbs.db
