@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 import './refinement.css';
 import './election.css';
@@ -6,4 +7,4 @@ import './age.css';
 import './post-header.css';
 import './transfer.css';
 export const metadata: Metadata = { icons: { icon: [{url:'/favicon.ico',sizes:'any'},{url:'/favicon.svg',type:'image/svg+xml'},{url:'/favicon-32.png',type:'image/png',sizes:'32x32'}], apple:[{url:'/apple-touch-icon.png',sizes:'180x180',type:'image/png'}] }, metadataBase: new URL('https://atlas-do-agora.gardengrape66.chatgpt.site'), title: 'Atlas do Agora — O Brasil em perspectiva', description: 'Mapas, gráficos e histórias visuais para entender o Brasil, com fontes verificáveis, contexto e metodologia em cada análise.' };
-export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) { return <html lang="pt-BR"><body>{children}</body></html>; }
+export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) { return <html lang="pt-BR"><body>{children}{process.env.VERCEL === '1' && <Analytics />}</body></html>; }
