@@ -6,7 +6,7 @@ import brazil from '@svg-maps/brazil';
 import { categories, Story } from './data';
 
 export { ArrowUpRight, ArrowRight, Search, X, Clock3, ChevronDown };
-export function Logo(){return <span className="brand-image"><img src="/atlas-logo.png" alt="Atlas do Agora" width="1448" height="1086"/></span>}
+export function Logo(){return <span className="brand-image"><img src="/brand/logo-light.webp" alt="Atlas do Agora" width="465" height="150"/></span>}
 export function Header({active='Todos', onCategory, onSearch}:{active?:string;onCategory?:(s:string)=>void;onSearch?:()=>void}){
  const [menu,setMenu]=useState(false);
  return <><div className="utility"><div className="shell"><span>UM OLHAR PARA O MUNDO. <b>O BRASIL NO CENTRO.</b></span><span className="utility-right">Jornalismo visual & dados <i/></span></div></div>
