@@ -1,0 +1,52 @@
+{
+  "source": "Atlas/Bloomberg",
+  "publication": "2026-10-19",
+  "fieldwork": [
+    "2026-10-13",
+    "2026-10-18"
+  ],
+  "consulted": "2026-10-22",
+  "report": "https://cdn1.atlasintel.org/pesquisa_atlas_bloomberg__nacional_261019_1_4df1944681acf96f.pdf",
+  "methodologyPage": 5,
+  "dataPage": 9,
+  "nationalSample": 4998,
+  "nationalMarginPP": 1,
+  "confidence": 95,
+  "registrationAsReported": "BR-02418/2026",
+  "subgroupBases": null,
+  "subgroupMargins": null,
+  "groups": [
+    {
+      "id": "caiado",
+      "name": "Ronaldo Caiado",
+      "party": "PSD",
+      "flavio": 69.8,
+      "lula": 24.5,
+      "other": 5.7
+    },
+    {
+      "id": "cury",
+      "name": "Augusto Cury",
+      "party": "Avante",
+      "flavio": 42.4,
+      "lula": 52.1,
+      "other": 5.6
+    },
+    {
+      "id": "renan",
+      "name": "Renan Santos",
+      "party": "Missão",
+      "flavio": 33.5,
+      "lula": 31.9,
+      "other": 34.6
+    },
+    {
+      "id": "others",
+      "name": "Outras candidaturas",
+      "party": "Categoria “Outro” na fonte",
+      "flavio": 61.3,
+      "lula": 30.7,
+      "other": 8
+    }
+  ]
+}
