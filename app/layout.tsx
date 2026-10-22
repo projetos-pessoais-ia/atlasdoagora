@@ -1,10 +1,17 @@
 import type { Metadata } from 'next';
 import { Analytics } from '@vercel/analytics/next';
+import { siteUrl, siteName, siteDescription, pageMetadata, isPreview } from './seo';
 import './globals.css';
 import './refinement.css';
 import './election.css';
 import './age.css';
 import './post-header.css';
 import './transfer.css';
-export const metadata: Metadata = { icons: { icon: [{url:'/favicon.ico',sizes:'any'},{url:'/favicon.svg',type:'image/svg+xml'},{url:'/favicon-32.png',type:'image/png',sizes:'32x32'}], apple:[{url:'/apple-touch-icon.png',sizes:'180x180',type:'image/png'}] }, metadataBase: new URL('https://atlas-do-agora.gardengrape66.chatgpt.site'), title: 'Atlas do Agora — O Brasil em perspectiva', description: 'Mapas, gráficos e histórias visuais para entender o Brasil, com fontes verificáveis, contexto e metodologia em cada análise.' };
+export const metadata: Metadata = {
+  ...pageMetadata({path:'/', title:siteName+' — O Brasil em perspectiva', description:siteDescription}),
+  metadataBase: new URL(siteUrl),
+  applicationName: siteName,
+  robots: isPreview ? {index:false, follow:false} : {index:true, follow:true, googleBot:{index:true, follow:true, 'max-image-preview':'large'}},
+  icons: { icon: [{url:'/favicon.ico',sizes:'any'},{url:'/favicon.svg',type:'image/svg+xml'},{url:'/favicon-32.png',type:'image/png',sizes:'32x32'}], apple:[{url:'/apple-touch-icon.png',sizes:'180x180',type:'image/png'}] },
+};
 export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) { return <html lang="pt-BR"><body>{children}{process.env.VERCEL === '1' && <Analytics />}</body></html>; }
