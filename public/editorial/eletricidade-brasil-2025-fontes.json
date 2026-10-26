@@ -1,0 +1,63 @@
+{
+  "source": "EPE, BEN 2026, Relatorio Sintese, pagina 36",
+  "referenceYear": 2025,
+  "url": "https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-975/topico-847/BEN_S%C3%ADntese_2026_PT.pdf",
+  "measure": "Oferta Interna de Energia Eletrica (OIEE)",
+  "renewableShare": 86.8,
+  "sources": [
+    {
+      "id": "hydro",
+      "name": "Hidráulica",
+      "value": 51.2,
+      "color": "#44baf3"
+    },
+    {
+      "id": "wind",
+      "name": "Eólica",
+      "value": 14.9,
+      "color": "#75e0c8"
+    },
+    {
+      "id": "solar",
+      "name": "Solar",
+      "value": 11.4,
+      "color": "#ffd166"
+    },
+    {
+      "id": "bio",
+      "name": "Biomassa",
+      "value": 8.4,
+      "color": "#afd66a"
+    },
+    {
+      "id": "gas",
+      "name": "Gás natural",
+      "value": 7.5,
+      "color": "#ff9275"
+    },
+    {
+      "id": "coal",
+      "name": "Carvão e derivados",
+      "value": 2.2,
+      "color": "#b1a0d9"
+    },
+    {
+      "id": "nuclear",
+      "name": "Nuclear",
+      "value": 2,
+      "color": "#fa9bc3"
+    },
+    {
+      "id": "oil",
+      "name": "Derivados de petróleo",
+      "value": 1.5,
+      "color": "#c4a18b"
+    },
+    {
+      "id": "import",
+      "name": "Eletricidade importada",
+      "value": 0.9,
+      "color": "#8ea7c4"
+    }
+  ]
+}
