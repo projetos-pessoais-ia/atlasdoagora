@@ -17,4 +17,8 @@ export const metadata: Metadata = {
   robots: isPreview ? {index:false, follow:false} : {index:true, follow:true, googleBot:{index:true, follow:true, 'max-image-preview':'large'}},
   icons: { icon: [{url:'/favicon.ico',sizes:'any'},{url:'/favicon.svg',type:'image/svg+xml'},{url:'/favicon-32.png',type:'image/png',sizes:'32x32'}], apple:[{url:'/apple-touch-icon.png',sizes:'180x180',type:'image/png'}] },
 };
-export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) { return <html lang="pt-BR"><body>{children}{process.env.VERCEL === '1' && <Analytics />}</body></html>; }
+export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
+  return <html lang="pt-BR"><head>
+    {process.env.NODE_ENV === 'production' && !isPreview && <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3156649226090669" crossOrigin="anonymous"/>}
+  </head><body>{children}{process.env.VERCEL === '1' && <Analytics />}</body></html>;
+}
