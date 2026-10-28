@@ -8,6 +8,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: absoluteUrl('/') },
     { url: absoluteUrl('/sobre/') },
+    { url: absoluteUrl('/contato/') },
+    { url: absoluteUrl('/politica-de-privacidade/') },
     ...stories.filter(story => story.published).map(story => ({
       url: absoluteUrl(`/materia/${story.slug}/`),
     })),
