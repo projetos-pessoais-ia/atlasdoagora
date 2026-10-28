@@ -1,0 +1,71 @@
+{
+  "period": "202609",
+  "indicator": "IPCA - Variação mensal",
+  "scope": "Brasil",
+  "subitems": 377,
+  "up": [
+    {
+      "code": "7265",
+      "classification": "1106015",
+      "name": "Limão",
+      "value": 46.42
+    },
+    {
+      "code": "7212",
+      "classification": "1103028",
+      "name": "Tomate",
+      "value": 37.76
+    },
+    {
+      "code": "7206",
+      "classification": "1103020",
+      "name": "Abobrinha",
+      "value": 29.82
+    },
+    {
+      "code": "7202",
+      "classification": "1103003",
+      "name": "Batata-inglesa",
+      "value": 24.07
+    },
+    {
+      "code": "7215",
+      "classification": "1103043",
+      "name": "Cebola",
+      "value": 10.14
+    }
+  ],
+  "down": [
+    {
+      "code": "7210",
+      "classification": "1103026",
+      "name": "Pimentão",
+      "value": -10.95
+    },
+    {
+      "code": "7268",
+      "classification": "1106019",
+      "name": "Manga",
+      "value": -9.62
+    },
+    {
+      "code": "7333",
+      "classification": "1108088",
+      "name": "Peixe - dourada",
+      "value": -9.06
+    },
+    {
+      "code": "7270",
+      "classification": "1106021",
+      "name": "Melancia",
+      "value": -8.11
+    },
+    {
+      "code": "7267",
+      "classification": "1106018",
+      "name": "Mamão",
+      "value": -6.59
+    }
+  ],
+  "url": "https://apisidra.ibge.gov.br/values/t/7060/n1/all/v/63/p/202609/c315/all/d/v63%202"
+}
