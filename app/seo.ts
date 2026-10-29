@@ -3,7 +3,13 @@ import type { Metadata } from 'next';
 export const siteUrl = 'https://www.atlasdoagora.com.br/';
 export const siteName = 'Atlas do Agora';
 export const siteDescription = 'Mapas, gráficos e histórias visuais para entender o Brasil, com fontes verificáveis, contexto e metodologia em cada análise.';
-export const isPreview = process.env.VERCEL_ENV === 'preview' || process.env.VERCEL_ENV === 'development';
+// A branch de produção do Pages deve ser main, conforme a configuração do projeto.
+const cloudflarePreview = process.env.CF_PAGES === '1'
+  && Boolean(process.env.CF_PAGES_BRANCH)
+  && process.env.CF_PAGES_BRANCH !== 'main';
+export const isPreview = process.env.VERCEL_ENV === 'preview'
+  || process.env.VERCEL_ENV === 'development'
+  || cloudflarePreview;
 
 export function absoluteUrl(path: string): string {
   return new URL(path, siteUrl).toString();
