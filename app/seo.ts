@@ -15,8 +15,8 @@ export function absoluteUrl(path: string): string {
   return new URL(path, siteUrl).toString();
 }
 
-export function pageMetadata({ path, title, description, image = '/brand/logo-light.png', imageAlt = siteName, article = false }: {
-  path: string; title: string; description: string; image?: string; imageAlt?: string; article?: boolean;
+export function pageMetadata({ path, title, description, image = '/brand/logo-light.png', imageAlt = siteName, article = false, imageWidth = 1600, imageHeight = 1000 }: {
+  path: string; title: string; description: string; image?: string; imageAlt?: string; article?: boolean; imageWidth?: number; imageHeight?: number;
 }): Metadata {
   const url = absoluteUrl(path);
   return {
@@ -30,7 +30,7 @@ export function pageMetadata({ path, title, description, image = '/brand/logo-li
       description,
       siteName,
       locale: 'pt_BR',
-      images: [{ url: absoluteUrl(image), alt: imageAlt, ...(article ? { width: 1600, height: 1000 } : {}) }],
+      images: [{ url: absoluteUrl(image), alt: imageAlt, ...(article ? { width: imageWidth, height: imageHeight } : {}) }],
     },
     twitter: {
       card: article ? 'summary_large_image' : 'summary',
