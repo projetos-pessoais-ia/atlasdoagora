@@ -1,0 +1,93 @@
+{
+  "title": "O peso da indústria de transformação no PIB brasileiro",
+  "source": "IBGE — ODS 9.2.1 / SIDRA 6587",
+  "tableId": 6587,
+  "variableId": 9312,
+  "sourcePage": "https://odsbrasil.gov.br/objetivo9/indicador921",
+  "tableUrl": "https://sidra.ibge.gov.br/tabela/6587",
+  "sourceApi": "https://apisidra.ibge.gov.br/values/t/6587/n1/all/v/9312/p/all",
+  "metadataApi": "https://servicodados.ibge.gov.br/api/v3/agregados/6587/metadados",
+  "methodologyUrl": "https://odsbrasil.gov.br/objetivo/MetadadosAPIndicador?n=9-2-1",
+  "consultedAt": "2026-11-04",
+  "geography": "Brasil",
+  "measure": "Valor adicionado da indústria de transformação em proporção do PIB",
+  "unit": "%",
+  "priceBasis": "Preços constantes de 2010",
+  "firstYear": 2010,
+  "lastYear": 2023,
+  "sourceSha256": "9d5634cc583507941a2a68cbfc20865ff57243228ff1a8ca29f23d6743237d6d",
+  "method": "Percentuais reproduzidos da variável 9312 da tabela 6587 do SIDRA. O indicador compara o valor adicionado da indústria de transformação com o PIB, ambos a preços constantes de 2010. A diferença entre os extremos é calculada em pontos percentuais.",
+  "items": [
+    {
+      "year": 2010,
+      "share": 12.7,
+      "sourceValue": "12.7"
+    },
+    {
+      "year": 2011,
+      "share": 12.5,
+      "sourceValue": "12.5"
+    },
+    {
+      "year": 2012,
+      "share": 12.0,
+      "sourceValue": "12.0"
+    },
+    {
+      "year": 2013,
+      "share": 12.0,
+      "sourceValue": "12.0"
+    },
+    {
+      "year": 2014,
+      "share": 11.4,
+      "sourceValue": "11.4"
+    },
+    {
+      "year": 2015,
+      "share": 10.8,
+      "sourceValue": "10.8"
+    },
+    {
+      "year": 2016,
+      "share": 10.6,
+      "sourceValue": "10.6"
+    },
+    {
+      "year": 2017,
+      "share": 10.7,
+      "sourceValue": "10.7"
+    },
+    {
+      "year": 2018,
+      "share": 10.7,
+      "sourceValue": "10.7"
+    },
+    {
+      "year": 2019,
+      "share": 10.5,
+      "sourceValue": "10.5"
+    },
+    {
+      "year": 2020,
+      "share": 10.4,
+      "sourceValue": "10.4"
+    },
+    {
+      "year": 2021,
+      "share": 10.3,
+      "sourceValue": "10.3"
+    },
+    {
+      "year": 2022,
+      "share": 9.9,
+      "sourceValue": "9.9"
+    },
+    {
+      "year": 2023,
+      "share": 9.5,
+      "sourceValue": "9.5"
+    }
+  ],
+  "classificationUrl": "https://concla.ibge.gov.br/images/concla/documentacao/EstruturaDetalhadaCNAE_CNAEFiscal2_Atualizada.pdf"
+}

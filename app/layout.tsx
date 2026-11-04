@@ -12,6 +12,7 @@ import './electricity.css';
 import './prices.css';
 import './cars.css';
 import './fuel.css';
+import './industry.css';
 export const metadata: Metadata = {
   ...pageMetadata({path:'/', title:siteName+' — O Brasil em perspectiva', description:siteDescription}),
   metadataBase: new URL(siteUrl),
