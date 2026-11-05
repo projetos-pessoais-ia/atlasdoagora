@@ -1,0 +1,27 @@
+.article {color:#173551}
+.cover {margin:0 0 32px}
+.cover img {display:block;width:100%;height:auto;border-radius:16px}
+.cover figcaption,.chart .chartNote {color:#536677;font-size:12px;line-height:1.65}
+.cover figcaption {margin-top:10px}
+.copy {max-width:800px;margin:32px auto 42px;font-size:18px;line-height:1.75}
+.copy > p {margin:0 0 20px}
+.copy h2 {color:#112b47;font-size:26px;line-height:1.25;letter-spacing:-.5px;margin:28px 0 12px}
+.copy a {color:#134886;text-decoration:underline;text-underline-offset:3px}
+.chart {border:1px solid #d3dde2;border-radius:16px;background:#f7f8f6;margin:28px 0;padding:24px clamp(16px,4vw,34px)}
+.kicker {color:#3c5675;font-size:10px;letter-spacing:1.2px;font-weight:700}
+.chart h2 {margin:6px 0 8px}
+.chart figcaption p {margin:0;color:#485b70;font-size:16px;line-height:1.5}
+.rows {margin:24px 0 0}
+.row {display:grid;grid-template-columns:48px minmax(0,1fr);gap:12px;align-items:center;min-height:38px;font-size:16px}
+.row dt,.row strong {font-variant-numeric:tabular-nums;font-weight:700}
+.row dd {display:grid;grid-template-columns:minmax(0,1fr) 62px;gap:12px;align-items:center;margin:0}
+.row strong {text-align:right;white-space:nowrap}
+.track {position:relative;height:8px;background:#dce3e9;border-radius:4px}
+.range {position:absolute;left:0;height:100%;border-radius:4px;background:#23559a}
+.range::after {content:'';position:absolute;right:0;top:50%;transform:translate(50%,-50%);width:12px;height:12px;background:#23559a;border:2px solid #fff;border-radius:50%;box-sizing:border-box;outline:1px solid #23559a}
+.scale {display:flex;justify-content:space-between;margin:0 74px 0 60px;font-size:12px;color:#536677}
+.chart .chartNote {margin:16px 0 0}
+.sources {border-top:1px solid #cad4df;margin-top:30px;padding-top:4px}
+.sources ul {padding-left:20px;font-size:14px;line-height:1.75}
+.sources li+li {margin-top:8px}
+@media(max-width:700px){.copy{font-size:16px}.copy h2{font-size:22px}.cover img{border-radius:12px}.row{grid-template-columns:42px minmax(0,1fr);gap:8px}.row dd{grid-template-columns:minmax(0,1fr) 56px;gap:8px}.scale{margin-left:50px;margin-right:64px}}
