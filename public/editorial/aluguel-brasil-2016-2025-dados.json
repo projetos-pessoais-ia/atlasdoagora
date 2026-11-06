@@ -1,0 +1,57 @@
+{
+  "title": "O Brasil mora mais de aluguel",
+  "indicator": "Distribuição percentual dos domicílios particulares permanentes alugados no Brasil",
+  "unit": "%",
+  "records": [
+    {
+      "year": 2016,
+      "value": 18.4,
+      "householdsThousands": 12252
+    },
+    {
+      "year": 2017,
+      "value": 18.4,
+      "householdsThousands": 12380
+    },
+    {
+      "year": 2018,
+      "value": 19,
+      "householdsThousands": 13066
+    },
+    {
+      "year": 2019,
+      "value": 19.2,
+      "householdsThousands": 13376
+    },
+    {
+      "year": 2022,
+      "value": 21,
+      "householdsThousands": 15246
+    },
+    {
+      "year": 2023,
+      "value": 22.3,
+      "householdsThousands": 16921
+    },
+    {
+      "year": 2024,
+      "value": 23,
+      "householdsThousands": 17817
+    },
+    {
+      "year": 2025,
+      "value": 23.8,
+      "householdsThousands": 18881
+    }
+  ],
+  "missingYears": [
+    2020,
+    2021
+  ],
+  "changePercentagePoints": 5.4,
+  "source": "IBGE — PNAD Contínua anual, tabela SIDRA 6821, variável 9784, condição Alugado (1055), Brasil (N1/1)",
+  "sourceUrl": "https://sidra.ibge.gov.br/tabela/6821",
+  "apiUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/6821/periodos/all/variaveis/9784%7C162?localidades=N1%5B1%5D&classificacao=63%5Ball%5D",
+  "retrievedAt": "2026-11-06",
+  "notes": "Série consultada integralmente na mesma versão da base em 06/11/2026. Sem valores publicados para 2020 e 2021; a área e a linha não conectam 2019 a 2022. Eixo vertical de zero a 30%. A ilustração é decorativa e não codifica quantidades. Número de domicílios alugados em 2025: 18.881 mil (variável 162), arredondado para 18,9 milhões."
+}
